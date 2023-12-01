@@ -25,10 +25,10 @@ include("includes/header.php");
 
     <?php 
       echo "<div>"; 
-      echo $_POST['firstname']; 
-      echo $_POST['surname']; 
-      echo $_POST['Email']; 
-      echo $_POST['Tel']; 
+      echo $_GET['firstname']; 
+      echo $_GET['surname']; 
+      echo $_GET['Email']; 
+      echo $_GET['Tel']; 
       echo "</div>"; 
     ?>
 
