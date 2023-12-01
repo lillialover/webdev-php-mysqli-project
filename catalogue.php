@@ -9,7 +9,7 @@
     <link
       rel="stylesheet"
       href="css/desktop.css"
-      media="only screen and (min-width : 720px)"
+      media="only screen and (min-width : 720px)" 
     />
   </head>
   <body>
