@@ -19,7 +19,7 @@ include("includes/header.php");
     <div class="mainContainer">
 		      <main>
               <div class="banner">
-                <h2>Catalogue</h2>
+                <h2>Catalogue.</h2>
               </div>
               <section class="twoColumn">
                 <div>
