@@ -23,14 +23,23 @@ include("includes/header.php");
     </div>
     <section class="twoColumn">
 
-    <?php 
-      echo "<div>"; 
-      echo $_GET['firstname']; 
-      echo $_GET['surname']; 
-      echo $_GET['Email']; 
-      echo $_GET['Tel']; 
-      echo "</div>"; 
-    ?>
+    <div> 
+      <table> 
+        <?php 
+     foreach($_POST as $key => $value){ 
+       echo "<tr>"; 
+       echo "<td class=\"uc\">"; 
+       echo $key; 
+       echo "</td>"; 
+       echo "<td>"; 
+       echo $value; 
+       echo "</td>"; 
+       echo "<tr>"; 
+     } 
+     ?> 
+ 
+    </table> 
+    </div>
 
 <div class="sideBar">
         <h3>Featured Film</h3>
