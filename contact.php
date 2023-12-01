@@ -23,7 +23,7 @@ include("includes/header.php");
     </div>
     <section class="twoColumn">
       <div>
-        <form action="thankyou.php" method="post">
+        <form action="thankyou.php" method="get">
           <div>
             <label for="firstname">First name</label>
             <input type="text" name="firstname" id="firstname" placeholder="Your First Name"/>
